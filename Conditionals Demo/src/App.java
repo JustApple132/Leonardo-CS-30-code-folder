@@ -1,0 +1,19 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        int x = 2;
+        int y = 3;
+        
+        
+        // boolean isCold = false;
+        // Noy (A & B)
+        // !(x > 0 && y < 2)
+        // !(x > 0) || !(y < 2)
+
+        if ( !(x > 0) || !(y < 2) ) {
+            System.out.println("Wear a coat");
+            System.out.println("Wear Gloves");
+        }
+        System.out.println("Bye");
+    }
+
+}

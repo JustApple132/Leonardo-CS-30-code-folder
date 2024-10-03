@@ -1,16 +1,18 @@
 public class BigSmall {
-
-    private 
-    private
-
-
-public void input() {
+    Scanner keyboard = new Scanner(System.in)
+    private int num1 = 0;
+    private int num2 = 0;
 
 
+    public void input() {
+        System.out.print("Enter a number");
+
+        System.ou.print("Enter a number");
 }
 
-public void check() {
+    public void check() {
 
+        if num1 > num2;
 }
 
 

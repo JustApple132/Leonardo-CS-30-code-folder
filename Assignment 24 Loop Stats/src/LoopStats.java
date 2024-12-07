@@ -1,4 +1,4 @@
-public class App {
+public class LoopStats                        {
     public static void main(String[] args) throws Exception {
         
         LoopStatsRunner test = new LoopStatsRunner();

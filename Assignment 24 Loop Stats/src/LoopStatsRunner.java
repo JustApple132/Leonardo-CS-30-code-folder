@@ -10,7 +10,7 @@ public class LoopStatsRunner {
 
     public int getEvenCount(int beg, int end)
 	{
-		int evenCount=0;
+		int evenCount = 0;
 		for( int i = beg; i <= end; i++) {
 			if(i % 2 == 0) {
 				evenCount = evenCount + 1;

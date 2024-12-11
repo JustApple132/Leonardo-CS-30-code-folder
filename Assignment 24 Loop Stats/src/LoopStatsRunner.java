@@ -1,13 +1,5 @@
 public class LoopStatsRunner {
 
-    private int start, stop;
-
-	public void setNums(int beg, int end)
-	{
-        beg = start;
-        end = stop;
-	}
-
     public int getEvenCount(int beg, int end)
 	{
 		int evenCount = 0;
@@ -16,7 +8,7 @@ public class LoopStatsRunner {
 				evenCount = evenCount + 1;
 			}
 		}
-		System.out.println(evenCount);
+		System.out.println("Their is " + evenCount + " even numbers");
 		return evenCount;
 	}
 
@@ -24,31 +16,26 @@ public class LoopStatsRunner {
 	{
 		int oddCount=0;
 		for( int i = beg; i <= end; i++) {
-			if(i % 2 == 0) {
+			if(i % 2 != 0) {
 				oddCount = oddCount + 1;
 			}
 		}
 
-		System.out.println(oddCount);
+		System.out.println("Their is " + oddCount + " odd numbers");
 		return oddCount;
 	}
 
 	public int getTotal(int beg, int end)
 	{
-		int total=0;
-        if (start <= stop ) {
-
-
+		int total = 0;
+        for (int i = beg ; i <= end; i ++) {
+			total = total + i;
         }
-
+		System.out.println("The total is: " + total);
 		return total;
 	}
 	
-	public String toString()
-	{
-		return start + " " + stop;
-	}
-
 }
+
 
 
